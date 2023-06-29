@@ -1,0 +1,82 @@
+/* Tela de fundo */
+body {
+    width: 100%; /* Define a largura total */
+    height: 100vh; /* Define a altura total da viewport */
+    background-color: rgba(252, 202, 226, 0.74); /* Define a cor de fundo usando RGBA */
+    display: flex; /* Define a exibição flexível */
+    flex-direction: column; /* Define a direção dos elementos filhos como coluna */
+    margin: 0%; /* Define a margem externa como 0% */
+    padding: 0%; /* Define o espaçamento interno como 0% */
+}
+
+/* Estilos para links de suporte */
+a {
+    color: black; /* Define a cor do texto como preto */
+    text-decoration: none; /* Remove a decoração do texto (sublinhado) */
+    font-family: sans-serif; /* Define a família da fonte como sans-serif */
+    font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+}
+
+/* Estilos para classe 'a2' */
+.a2 {
+    text-decoration: none; /* Remove a decoração do texto (sublinhado) */
+    color: #1877f2; /* Define a cor do texto como azul (#1877f2) */
+}
+
+.logo {
+    margin-top: 90px; /* Define a margem superior como 90 pixels */
+    width: 110px; /* Define a largura como 110 pixels */
+    display: flex; /* Define a exibição flexível */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    justify-self: center; /* Alinha o item flex no centro do contêiner */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    align-self: center; /* Alinha o item flex no centro do contêiner */
+}
+
+.escrita {
+    margin-top: 20px; /* Define a margem superior como 20 pixels */
+    display: flex; /* Define a exibição flexível */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    justify-self: center; /* Alinha o item flex no centro do contêiner */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    align-self: center; /* Alinha o item flex no centro do contêiner */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+}
+
+.mensagem {
+    margin-top: 10px; /* Define a margem superior como 10 pixels */
+    display: flex; /* Define a exibição flexível */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    justify-self: center; /* Alinha o item flex no centro do contêiner */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    align-self: center; /* Alinha o item flex no centro do contêiner */
+    border-radius: 15px; /* Define o raio das bordas como 15 pixels */
+    border-color: black; /* Define a cor da borda como preto */
+    width: 250px; /* Define a largura como 250 pixels */
+    font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+    color: #1877f2; /* Define a cor do texto como azul (#1877f2) */
+}
+
+.bt {
+    margin-top: 10px; /* Define a margem superior*/
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    width: 250px;
+    font-size: 20px;
+    background-color:  #1877f2;
+
+}
+.resposta
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 18px;
+    width: 90%;
+    height: 270px;
+    overflow-y: scroll;
+    padding-left: 20px;
+}
